@@ -42,6 +42,6 @@ $_DVWA[ 'default_phpids_level' ] = 'disabled';
 # Verbose PHPIDS messages
 #   Enabling this will show why the WAF blocked the request on the blocked request.
 #   The default is 'disabled'. You can set this to be either 'true' or 'false'.
-$_DVWA[ 'default_phpids_verbose' ] = 'false';
+$_DVWA[ 'default_phpids_verbose' ] = 'true';
 
 ?>

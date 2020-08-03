@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  dvwa:
+    build: ./
+    hostname: DVWA
+    ports:
+      - "8080:80"
+    restart: always
+    logging:
+      options:
+          max-size: "2m"
+          max-file: "1"
+networks:
+    default:
